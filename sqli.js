@@ -21,7 +21,7 @@ async function main() {
      VALUES ('jannik', '${await hash('password1234')}');`
   );
 
-  const loggedIn = await login(`' OR true;`, `foobar`);
+  const loggedIn = await login(`jannik`, `passwort1234`);
 
   console.log();
   console.log();
