@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "marsdb": "^0.6.11",
+    "marsdb-localforage": "^0.1.0",
     "md5": "^2.2.1",
     "sequelize": "^5.21.1",
     "sqlite3": "^4.1.0"
